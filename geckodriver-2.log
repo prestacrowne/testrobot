@@ -1,0 +1,41 @@
+1654574448552	geckodriver	INFO	Listening on 127.0.0.1:51056
+1654574451660	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51057" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sugih\\AppData\\Local\\Temp\\rust_mozprofilehBQnp9"
+1654574452085	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:51057
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sugih\\AppData\\Local\\Temp\\rust_mozprofilehBQnp9\\search.json.mozlz4", (void 0)))
+1654574453929	Marionette	INFO	Listening on port 51076
+DevTools listening on ws://localhost:51057/devtools/browser/f2ac72f9-93ae-42c9-ae5e-2fb756b35c0d
+Read port: 51076
+1654574454034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.rockofftrade.com/login.jhtm, line 2721: TypeError: Node.appendChild: Argument 1 is not an object.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.rockofftrade.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.rockofftrade.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.rockofftrade.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.rockofftrade.com/account.jhtm, line 2721: TypeError: Node.appendChild: Argument 1 is not an object.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.rockofftrade.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.rockofftrade.com/home.jhtm, line 2753: TypeError: Node.appendChild: Argument 1 is not an object.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.rockofftrade.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.rockofftrade.com/product/ACDCTS99LW/AC-DC-Ladies-T-Shirt-Mono-Leopard-Print-Logo.html?cid=, line 2734: TypeError: Node.appendChild: Argument 1 is not an object.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.rockofftrade.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.rockofftrade.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.rockofftrade.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.rockofftrade.com/viewCart.jhtm, line 2738: TypeError: Node.appendChild: Argument 1 is not an object.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.rockofftrade.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.rockofftrade.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.rockofftrade.com/home.jhtm, line 2753: TypeError: Node.appendChild: Argument 1 is not an object.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.rockofftrade.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.rockofftrade.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.rockofftrade.com/lsearch.jhtm, line 2743: TypeError: Node.appendChild: Argument 1 is not an object.
+1654574660459	Marionette	INFO	Stopped listening on port 51076
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

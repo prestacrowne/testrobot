@@ -2,12 +2,15 @@
 Library    Selenium2Library
 
 *** Variables ***
+${url}           https://www.rockofftrade.com/login.jhtm
 ${search}        xpath:/html/body/div[2]/div[1]/div/div[2]/div/div[2]/div[2]/div/form/div/span/button
 
 *** Test Cases ***
-Sign In
-        Open Browser                https://www.rockofftrade.com/login.jhtm            firefox
+Open Browser
+        Open Browser        ${url}        chrome
         Maximize Browser Window
+
+Sign In
         # Click element               xpath:/html/body/div[1]/div[1]/div/div/div/div[2]/a
         Input Text                  id:username                    prestacrowne@gmail.com
         Input Text                  id:password                    jasonstatham123
@@ -22,5 +25,6 @@ Click Tshirt
         Input Text                  name:keywords                 metallica
         Click element               ${search}
         # Click element               xpath:/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button/span
+
 
 
