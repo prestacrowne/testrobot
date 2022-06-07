@@ -6,6 +6,7 @@ ${browser}    chrome
 ${url}    http://10.251.4.67:8000/pgrc/admin
 ${username}    P987987
 ${password}    123456
+${test}
 
 
 *** Keywords ***
