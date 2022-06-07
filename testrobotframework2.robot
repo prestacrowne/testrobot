@@ -8,7 +8,8 @@ ${search}        xpath:/html/body/div[2]/div[1]/div/div[2]/div/div[2]/div[2]/div
 *** Test Cases ***
 Open Browser
         Open Browser        ${url}        chrome
-        
+        Maximize Browser Window
+
 Sign In
         # Click element               xpath:/html/body/div[1]/div[1]/div/div/div/div[2]/a
         Input Text                  id:username                    prestacrowne@gmail.com
