@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.4 on win32)" generated="20220615 13:53:54.424" rpa="false" schemaversion="3">
+<suite id="s1" name="Casepgrc" source="C:\Users\sugih\Documents\folder preestra\New folder\TEST ROBOT FRAMEWORK\testpgrc\casepgrc.robot">
+<test id="s1-t1" name="Open Browser" line="8">
+<kw name="Open Browser" library="Selenium2Library">
+<arg>http://10.251.4.67:8000/pgrc/user/login</arg>
+<arg>firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220615 13:53:54.601" level="INFO">Opening browser 'firefox' to base url 'http://10.251.4.67:8000/pgrc/user/login'.</msg>
+<msg timestamp="20220615 13:53:54.602" level="INFO">Firefox driver log is always forced to to: C:\Users\sugih\Documents\folder preestra\New folder\TEST ROBOT FRAMEWORK\testpgrc\geckodriver-4.log</msg>
+<status status="PASS" starttime="20220615 13:53:54.600" endtime="20220615 13:54:01.962"/>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220615 13:54:01.963" endtime="20220615 13:54:02.233"/>
+</kw>
+<status status="PASS" starttime="20220615 13:53:54.600" endtime="20220615 13:54:02.234"/>
+</test>
+<test id="s1-t2" name="Sign In" line="12">
+<kw name="Click Element" library="Selenium2Library">
+<arg>id:username</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220615 13:54:02.241" level="INFO">Clicking element 'id:username'.</msg>
+<status status="PASS" starttime="20220615 13:54:02.239" endtime="20220615 13:54:02.490"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>id:username</arg>
+<arg>P987987</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220615 13:54:02.492" level="INFO">Typing text 'P987987' into text field 'id:username'.</msg>
+<status status="PASS" starttime="20220615 13:54:02.491" endtime="20220615 13:54:02.573"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>xpath:/html/body/div[3]/div/div[2]/form/div[4]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220615 13:54:02.575" level="INFO">Clicking element 'xpath:/html/body/div[3]/div/div[2]/form/div[4]/input'.</msg>
+<msg timestamp="20220615 13:54:02.668" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-5.png"&gt;&lt;img src="selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220615 13:54:02.669" level="FAIL">Element with locator 'xpath:/html/body/div[3]/div/div[2]/form/div[4]/input' not found.</msg>
+<status status="FAIL" starttime="20220615 13:54:02.574" endtime="20220615 13:54:02.678"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>xpath:/html/body/div[3]/div/div[2]/form/div[4]/input</arg>
+<arg>123456</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220615 13:54:02.678" endtime="20220615 13:54:02.678"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>xpath:/html/body/div[3]/div/div[2]/form/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220615 13:54:02.679" endtime="20220615 13:54:02.679"/>
+</kw>
+<status status="FAIL" starttime="20220615 13:54:02.237" endtime="20220615 13:54:02.679">Element with locator 'xpath:/html/body/div[3]/div/div[2]/form/div[4]/input' not found.</status>
+</test>
+<test id="s1-t3" name="Click Tshirt" line="19">
+<kw name="Click Element" library="Selenium2Library">
+<arg>xpath:/html/body/div[2]/div[1]/div/div[2]/div/div[2]/div[1]/div/a/img</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220615 13:54:02.682" level="INFO">Clicking element 'xpath:/html/body/div[2]/div[1]/div/div[2]/div/div[2]/div[1]/div/a/img'.</msg>
+<msg timestamp="20220615 13:54:02.763" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-6.png"&gt;&lt;img src="selenium-screenshot-6.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220615 13:54:02.763" level="FAIL">Element with locator 'xpath:/html/body/div[2]/div[1]/div/div[2]/div/div[2]/div[1]/div/a/img' not found.</msg>
+<status status="FAIL" starttime="20220615 13:54:02.681" endtime="20220615 13:54:02.764"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>xpath:/html/body/div[2]/div[3]/div/div/div[2]/div/div/div[1]/div[2]/div[2]/div[5]/div[1]/form/div[2]/div/div[1]/div/div[3]/div/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220615 13:54:02.764" endtime="20220615 13:54:02.765"/>
+</kw>
+<kw name="Select From List By Index" library="Selenium2Library">
+<arg>id:quantity_89026</arg>
+<arg>1</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="NOT RUN" starttime="20220615 13:54:02.766" endtime="20220615 13:54:02.766"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>xpath:/html/body/div[2]/div[3]/div/div/div[2]/div/div[3]/div/div[2]/div/form/div[3]/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220615 13:54:02.766" endtime="20220615 13:54:02.766"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>xpath:/html/body/div[2]/div[1]/div/div[2]/div/div[2]/div[1]/div/a/img</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220615 13:54:02.766" endtime="20220615 13:54:02.766"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>xpath:/html/body/div[2]/div[1]/div/div[2]/div/div[2]/div[2]/div/form/div/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220615 13:54:02.767" endtime="20220615 13:54:02.767"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>name:keywords</arg>
+<arg>metallica</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220615 13:54:02.767" endtime="20220615 13:54:02.767"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>${search}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220615 13:54:02.767" endtime="20220615 13:54:02.767"/>
+</kw>
+<status status="FAIL" starttime="20220615 13:54:02.681" endtime="20220615 13:54:02.767">Element with locator 'xpath:/html/body/div[2]/div[1]/div/div[2]/div/div[2]/div[1]/div/a/img' not found.</status>
+</test>
+<status status="FAIL" starttime="20220615 13:53:54.425" endtime="20220615 13:54:02.769"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="2" skip="0" id="s1" name="Casepgrc">Casepgrc</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
